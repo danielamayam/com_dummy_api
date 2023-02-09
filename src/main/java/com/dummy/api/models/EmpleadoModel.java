@@ -11,6 +11,7 @@ public class EmpleadoModel {
     private String nombre;
     private String salario;
     private String anos;
+    private String id;
 
     public String getNombre() {
         return nombre;
@@ -34,6 +35,14 @@ public class EmpleadoModel {
 
     public void setAnos(String anos) {
         this.anos = anos;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @Override

@@ -2,7 +2,6 @@ package com.dummy.api.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
 
@@ -13,7 +12,6 @@ public class ValidarSchema implements Question<Boolean> {
     public ValidarSchema(String estructura){
         this.estructura = estructura;
     }
-
 
     @Override
     public Boolean answeredBy(Actor actor) {

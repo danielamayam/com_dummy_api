@@ -8,7 +8,6 @@ import com.dummy.api.taks.ConsumoGetId;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import com.dummy.api.questions.ValidarRespuestaEstado;
-
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 

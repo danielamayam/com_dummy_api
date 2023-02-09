@@ -1,6 +1,5 @@
 package com.dummy.api.taks;
 
-import com.dummy.api.interactions.ExecuteGet;
 import com.dummy.api.interactions.ExecuteGetId;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -13,7 +12,6 @@ public class ConsumoGetId implements Task {
     public ConsumoGetId(int id){
         this.id = id;
     }
-
 
     @Override
     public <T extends Actor> void performAs(T actor) {

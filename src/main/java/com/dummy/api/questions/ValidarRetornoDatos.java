@@ -3,7 +3,6 @@ package com.dummy.api.questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.rest.questions.ResponseConsequence;
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 
 public class ValidarRetornoDatos implements Question<Boolean> {

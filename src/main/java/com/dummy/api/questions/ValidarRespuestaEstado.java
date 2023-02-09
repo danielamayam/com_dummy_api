@@ -22,7 +22,6 @@ public class ValidarRespuestaEstado implements Question<Boolean> {
         return true;
     }
 
-
     public static ValidarRespuestaEstado expected(int codigo){
         return new ValidarRespuestaEstado(codigo);
     }

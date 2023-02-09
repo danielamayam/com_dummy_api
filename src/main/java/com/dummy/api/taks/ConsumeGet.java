@@ -7,7 +7,6 @@ import net.serenitybdd.screenplay.Tasks;
 
 public class ConsumeGet implements Task {
 
-
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
